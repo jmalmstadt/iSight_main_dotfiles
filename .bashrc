@@ -20,7 +20,7 @@ export DB_PASS=postgres
 export AUDIT_DB_PASS=postgres
 export FILESTORE_DB_PASS=postgres
 export QUARTZ_DB_PASS=postgres
-export APP_CONFIG_PATH=/workspaces/config_unfaox00_v5
+export APP_CONFIG_PATH=/workspaces/config_minnesota_v5
 # FOR make retore tag
 export DB_DATA=/workspaces/isight_main_v5_beta
 # FOR v8.4+
