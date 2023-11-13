@@ -2,6 +2,16 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+alias up='nvm use && make docker-up'
+alias down='nvm use && make docker-down'
+alias wa='nvm use && make watch'
+alias st='nvm use && node server'
+alias breakdown='nvm use && make breakdown'
+alias setup='nvm use && make setup'
+alias migrate='nvm use && make migrate'
+alias ip='nvm install && nvm use && yarn --frozen-lockfile && yarn unlink && yarn link'
+alias ic='nvm install && nvm use && yarn --frozen-lockfile && yarn link isight'
+
 export NODE_ENV=development
 export DISABLE_DB_BACKUP=true
 export DISABLE_ES_SNAPSHOT=true
@@ -20,7 +30,7 @@ export DB_PASS=postgres
 export AUDIT_DB_PASS=postgres
 export FILESTORE_DB_PASS=postgres
 export QUARTZ_DB_PASS=postgres
-export APP_CONFIG_PATH=/workspaces/config_minnesota_v5
+export APP_CONFIG_PATH=/workspaces/config_johnson_v5
 # FOR make retore tag
 export DB_DATA=/workspaces/isight_main_v5_beta
 # FOR v8.4+
