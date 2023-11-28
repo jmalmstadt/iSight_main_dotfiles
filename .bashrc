@@ -12,6 +12,8 @@ alias migrate='nvm use && make migrate'
 alias ip='nvm install && nvm use && yarn --frozen-lockfile && yarn unlink && yarn link'
 alias ic='nvm install && nvm use && yarn --frozen-lockfile && yarn link isight'
 
+export ENABLE_TWO_WAY_PORTAL=true
+export ENABLE_PORTAL=true
 export NODE_ENV=development
 export DISABLE_DB_BACKUP=true
 export DISABLE_ES_SNAPSHOT=true
