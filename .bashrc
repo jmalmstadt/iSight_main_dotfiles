@@ -6,11 +6,12 @@ alias up='nvm use && make docker-up'
 alias down='nvm use && make docker-down'
 alias wa='nvm use && make watch'
 alias st='nvm use && node server'
-alias breakdown='nvm use && make breakdown'
-alias setup='nvm use && make setup'
+alias bdsu='nvm use && make breakdown setup && make create-sample-users'
 alias migrate='nvm use && make migrate'
 alias ip='nvm install && nvm use && yarn --frozen-lockfile && yarn unlink && yarn link'
 alias ic='nvm install && nvm use && yarn --frozen-lockfile && yarn link isight'
+
+export SAMPLE_PASSWORD=123456
 
 export POSTGRES_PASSWORD=${DB_PASS:-postgres}
 export POSTGRES_HOST_AUTH_METHOD=trust
