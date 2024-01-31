@@ -10,6 +10,8 @@ alias bdsu='nvm use && make breakdown setup && make create-sample-users'
 alias migrate='nvm use && make migrate'
 alias ip='nvm install && nvm use && yarn --frozen-lockfile && yarn unlink && yarn link'
 alias ic='nvm install && nvm use && yarn --frozen-lockfile && yarn link isight'
+alias ipv5='nvm install && nvm use && npm install && yarn unlink && yarn link'
+alias icv5='nvm install && nvm use && npm install && yarn link isight'
 
 export SAMPLE_PASSWORD=123456
 
