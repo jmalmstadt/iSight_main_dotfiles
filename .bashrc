@@ -12,6 +12,7 @@ alias ip='nvm install && nvm use && yarn --frozen-lockfile && yarn unlink && yar
 alias ic='nvm install && nvm use && yarn --frozen-lockfile && yarn link isight'
 alias ipv5='nvm install && nvm use && npm install && yarn unlink && yarn link'
 alias icv5='nvm install && nvm use && npm install && yarn link isight'
+alias ms='docker run -d -p 1080:1080 -p 1025:1025 maildev/maildev'
 
 export SAMPLE_PASSWORD=123456
 
