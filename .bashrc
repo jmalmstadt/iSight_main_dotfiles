@@ -46,11 +46,16 @@ export DB_DATA=/workspaces/isight_main_v5_beta
 export DISABLE_CONFIG_BACKUP=true
 alias expath='export APP_CONFIG_PATH=$(pwd)'
 #MAIL enivrontment variables for maildev
+export MAIL_OVERRIDE_RECIP=jmalmstadt@caseiq.com
+export MAIL_ENABLED=true
+export MAIL_PORT=1025
 export MAIL_DISABLE_STARTTLS=true
 export MAIL_IGNORE_TLS=true
 export MAIL_HOST=0.0.0.0
 export MAIL_DISABLE_DNS_VALID=1
 export MAIL_TRANSPORT=smtp
+export MAILSRV_PORT=2525
+export MAILSRV_DOMAIN=localhost.local
 
 # If not running interactively, don't do anything
 case $- in
