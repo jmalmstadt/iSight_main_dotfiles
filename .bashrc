@@ -14,6 +14,13 @@ alias ipv5='nvm install && nvm use && npm install && yarn unlink && yarn link'
 alias icv5='nvm install && nvm use && npm install && yarn link isight'
 alias ms='docker run -d -p 1080:1080 -p 1025:1025 maildev/maildev'
 
+
+FLAG_LIMIT=20
+FIELD_LIMIT=1000
+FIELD_WARNING_LIMIT=750
+PICKLIST_ITEM_LIMIT=10000
+PICKLIST_ITEM_WARNING_LIMIT=7500
+
 export SAMPLE_PASSWORD=123456
 
 export POSTGRES_PASSWORD=${DB_PASS:-postgres}
