@@ -15,11 +15,11 @@ alias icv5='nvm install && nvm use && npm install && yarn link isight'
 alias ms='docker run -d -p 1080:1080 -p 1025:1025 maildev/maildev'
 
 
-FLAG_LIMIT=20
-FIELD_LIMIT=1000
-FIELD_WARNING_LIMIT=750
-PICKLIST_ITEM_LIMIT=10000
-PICKLIST_ITEM_WARNING_LIMIT=7500
+export FLAG_LIMIT=20
+export FIELD_LIMIT=1000
+export FIELD_WARNING_LIMIT=750
+export PICKLIST_ITEM_LIMIT=10000
+export PICKLIST_ITEM_WARNING_LIMIT=7500
 
 export SAMPLE_PASSWORD=123456
 
